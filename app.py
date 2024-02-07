@@ -1,6 +1,7 @@
 from flask import Flask, request
 import pickle
 import re
+import xgboost
 
 app = Flask(__name__)
 
