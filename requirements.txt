@@ -1,2 +1,3 @@
 xgboost
 flask
+pytest

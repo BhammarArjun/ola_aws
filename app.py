@@ -8,9 +8,7 @@ app = Flask(__name__)
 @app.route("/", methods = ['GET'])
 def welcome():
     template = """
-        Welcome to the API Version of my Model:
-        \n
-        How to navigate? (use Postman) --- try "/guide", or "/predict"
+        Welcome to the API Version of my Model: How to navigate? (use Postman) --- try "/guide", or "/predict"
     """
     return template
 
